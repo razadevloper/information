@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education For Everyone</title>
+    <!-- Bootsarp css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo2.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Course
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">General Knowledge</a></li>
+                                <li><a class="dropdown-item" href="#">General Science</a></li>
+                                <li><a class="dropdown-item" href="#">Current Affairs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="signup.html">Log In</a></li>
+                        <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ------------Hero section Start------ -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="images/heroimg.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/heriimg2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/heroimg3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- -------------Hero Section End--------- -->
+
+    <section class="servicesec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mainhdng">
+                        <h1>OUR SERVICE</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="serviceBox">
+                        <div class="srviceimg">
+                            <img src="images/general_k img.jpg" alt="">
+                        </div>
+                        <div class="servicehdng">
+                            <h2 class="text6">General Knowledge</h2>
+                            <p>You can test your GK Knowledge here giving test.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serviceBox">
+                        <div class="srviceimg">
+                            <img src="images/general_k img.jpg" alt="">
+                        </div>
+                        <div class="servicehdng">
+                            <h2 class="text6">General Science</h2>
+                            <p>You can test your GK Knowledge here giving test.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="serviceBox">
+                        <div class="srviceimg">
+                            <img src="images/general_k img.jpg" alt="">
+                        </div>
+                        <div class="servicehdng">
+                            <h2 class="text6">Current Affairs</h2>
+                            <p>You can test your GK Knowledge here giving test.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questiontab">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <ul id="chapterList"></ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div id="questionTab"></div>
+                        <div class="scorebox">
+                            <div id="right-Answer"></div>
+                            <div id="wrong-Answer"></div>
+                        </div>
+                        <button class="btn btn-primary" onclick="getNextQuestion()">Next Question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" tabindex="-1" id="alertModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Alert</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="alertMessage"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="spacecraft">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <h2 class="text6 crafthdng">Satellite Lunch By ISRO</h2>
+                        <ul id="spacecraft"></ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content" id="v-pills-tabContent">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootsrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom jss -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
